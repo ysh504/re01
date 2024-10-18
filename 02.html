@@ -1,0 +1,350 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+         body{
+           padding: 0;
+           margin: 0;
+       }
+       .head{
+        background-color: rgba(231, 230, 230, 0.9);
+        line-height: 30px;
+        font-size: small;
+        
+       }
+       .head>span{
+        display: inline-block;
+        background-color: transparent;
+        height: 30px;
+        width: 120px;
+        text-align: center;
+        margin: 0px 0px 0px 0px;
+       }
+       .head>span:hover{
+        color: black;
+        background-color: white;
+       }
+       .head>div{
+        display: inline-block;
+        width: 250px;
+       }
+       .dh{
+        line-height: 80px;
+        font-size: small;
+       }
+       .dh>div{
+        display: inline-block;
+        width: 250px;
+       }
+       .dh>input{
+        display: inline-block;
+       }
+       .b{
+        display: inline-block;
+        font-size: small;
+        background-color: rgb(238,85,37);
+       }
+       .dh>span{
+        display: inline-block;
+        width: 40px;
+       }
+       .dh>img{
+        display: inline-block;
+       }
+       .head2{
+        background-color: rgba(238,85,37);
+        color: white;
+        line-height: 60px;
+        font-size: small;
+       }
+       .head2>span{
+        display: inline-block;
+        background-color: transparent;
+        height: 60px;
+        width: 80px;
+        text-align: center;
+        margin: 0px 0px 0px 0px;
+       }
+       .head2>span:hover{
+        color: white;
+        background-color: rgba(0, 0, 0, 0.799);
+       }
+       .head2>div{
+        display: inline-block;
+        width: 250px;
+       }
+       .b2{
+        line-height: 80px;
+       }
+       .b2>div{
+        display: inline-block;
+        width: 250px;
+       }
+       .b3{
+        line-height: 20px;
+       }
+       .head3{
+        background-color: rgb(255, 255, 255);
+        line-height: 50px;
+        font-size: small;      
+       }
+       .head3>span{
+        display: inline-block;
+        background-color: transparent;
+        height: 30px;
+        width: 30px;
+        text-align: center;
+        margin: 0px 0px 0px 0px;
+       }
+       .head3>span:hover{
+        color: black;
+        background-color: white;
+       }
+       .head3>div{
+        display: inline-block;
+        width: 250px;
+       }
+       .head3>li{
+        display: inline-block;
+        line-height: 60px;
+        font-size:40px;
+       }
+       .head3>h6{
+        display: inline-block;
+        width: 430px;
+       }
+       .zhuti {
+    /*主体*/
+    margin: 10px 250px 0px 250px;
+    background-color: white;
+}
+ 
+#zhutiright {
+    width: 25%;
+    height: 400px;
+    background-color: white;
+    float: left;
+}
+ 
+#d2 {
+    clear: both;
+}
+ 
+#zhutiright ul li {
+    /*列表设置*/
+    list-style-type: none;
+    /*列表样式无*/
+}
+ 
+#zhutiright ul {
+    /*列表设置*/
+    margin: 0px;
+    padding: 15px 10px 15px 10px;
+}
+ 
+#zhutiright ul li a {
+    /*列表超链接设置*/
+    display: block;
+    text-decoration: none;
+    color: black;
+    line-height: 30px;
+    border-bottom: 1px dashed black;
+    padding: 0px 0px 0px 0px;
+}
+ 
+#zhutiright span {
+    /*排列大小*/
+    float: right;
+}
+ 
+#zhutileft {
+    /*主体左边设置*/
+    width: 45%;
+    height: 400px;
+    background-color:white;
+    float: left;
+    overflow: hidden;
+    /*隐藏*/
+    border-radius: 5px;
+    /*弧度*/
+
+}
+
+#photo {
+    /*动画设置图片*/
+    display: block;
+    width: 2500px;
+    height: 240px;
+    animation: bj 8s linear infinite;
+    /*动画*/
+}
+ 
+#photo img {
+    /*图片设置*/
+    float: left;
+    width: 500px;
+    height: 100%;
+    padding: 0px 0px 0px 0px;
+}
+/*轮播图动画*/
+@keyframes bj {
+ 
+    0%,
+    20% {
+        margin-left: 0px;
+    }
+ 
+    25%,
+    40% {
+        margin-left: -500px;
+    }
+ 
+    45%,
+    60% {
+        margin-left: -1000px;
+    }
+ 
+    65%,
+    80% {
+        margin-left: -1500px;
+    }
+ 
+    85%,
+    100% {
+        margin-left: -2000px;
+    }
+}
+ 
+#zhutimain {
+    /*中间内容设置*/
+    width: 30%;
+    height: 400px;
+    background-color: white;
+    float: left;
+    text-align: center;
+}
+#zhuti22{
+    background-color: rgba(231, 230, 230, 0.9);
+    line-height: 30px;
+    font-size: small;
+}
+    </style>
+</head>
+<body>
+    <div class="head">
+        <div>&emsp;&emsp;&emsp;&emsp;&emsp;</div>
+        <span><a href="#">17k小说</a></span>
+        <span><a href="#">四月天女生</a></span>
+        <span><a href="#">万丈书城</a></span>
+        <span><a href="#">迈步文学</a></span>
+    </div>
+    <div class="dh">
+        <div>&emsp;&emsp;&emsp;&emsp;&emsp;</div>
+        <img src="./17k小说.png" alt="">
+        <input type="text" placeholder="九星霸体诀">
+        <input type="button" value="登录" class="b">
+        <div>&emsp;&emsp;&emsp;&emsp;</div>
+        <img src="./1.png" alt="">
+        <span><a href="#">登录</a></span>
+        <span><a href="#">注册</a></span>
+        <img src="./2.png" alt="">
+        <span><a href="#">看过</a></span>
+        <img src="./3.png" alt="">
+        <span><a href="#">书架</a></span>
+        <img src="./4.png" alt="">
+        <span><a href="#">消息</a></span>
+        <img src="./5.png" alt="">
+        <span><a href="#">写书</a></span>
+        <img src="./6.png" alt="">
+        <span><a href="#">充值</a></span>
+    </div>
+    <div class="head2">
+        <div>&emsp;&emsp;&emsp;&emsp;&emsp;</div>
+        <span><a href="#">首页</a></span>
+        <span><a href="#">排行榜</a></span>
+        <span><a href="#">分类</a></span>
+        <span><a href="#">17k男生</a></span>
+        <span><a href="#">17k女生</a></span>
+        <span><a href="#">IP改编</a></span>
+        <span><a href="#">元宇宙</a></span>
+        <span><a href="#">免费小说</a></span>
+        <span><a href="#">完本小说</a></span>
+        <span><a href="#">APP端</a></span>
+        <span><a href="#">我要写书</a></span>
+    </div>
+    <div class="b3">
+        <div>&emsp;&emsp;&emsp;&emsp;&emsp;</div>
+    </div>
+    <div class="b2">
+        <div>&emsp;&emsp;&emsp;&emsp;&emsp;</div>
+        <img src="./法治.png" alt="">        
+    </div>
+    <div class="head3">
+        <div>&emsp;&emsp;&emsp;&emsp;&emsp;</div>
+        <li><a href="#">本周主打</a></li>
+        <span><a href="#">全站</a></span>
+        <span><a href="#">男生</a></span>
+        <span><a href="#">女生</a></span>
+        <span><a href="#">新书</a></span>
+        <span><a href="#">完本</a></span>
+        <h6>&emsp;&emsp;&emsp;&emsp;&emsp;</h6>
+        <li><a href="#">新闻公告</a></li>
+        <div>&emsp;&emsp;&emsp;&emsp;&emsp;</div>
+    </div>
+    <div class="zhuti">
+        <!--主体-->
+        <div id="zhutileft">
+            <div id="photo">
+                <img src="./xs1.png">
+                <img src="./xs2.png">
+                <img src="./xs3.png">
+                <img src="./xs4.png">
+                <img src="./xs5.png">
+            </div>
+                <span><a href="#">全站订阅周榜</a></span>
+                <span><a href="#">新书订阅周榜</a></span>
+                <span><a href="#">推荐周榜</a></span>
+                <span><a href="#">礼物周榜</a></span>
+            <div>
+                    <li><span class="num"><a href="#">星浪之门</a></span></li>
+                    <li><span class="num"><a href="#">九星霸体诀</a></span></li>
+                    <li><span class="num"><a href="#">万古第一神</a></span></li>
+                    <li><span class="num"><a href="#">九域凡仙</a></span></li>
+                    <li><span class="num"><a href="#">1111</a></span></li>
+                    <li><span class="num"><a href="#">2222</a></span></li>
+                    <li><span class="num"><a href="#">3333</a></span></li>
+                    <li><span class="num"><a href="#">4444</a></span></li>
+            </div>
+        </div>
+        <div id="zhutimain">
+               <h3>诗仙小贵婿：吟诗成诗仙</h3> 
+               <div>穿越为唐朝书生，一首千古词惊世！进入宁国府为赘婿，诗成天地风云动！</div>
+               <h3>开局诬陷镇长，我反手投敌</h3> 
+               <div>开局叫我诬陷镇长?我反手—个投“敌”!这—世，陈远洋势必以身为棋，胜天半子。</div>
+               <h3>世子凶猛：开局就抢小娘子</h3> 
+               <div>世子凶猛:穿到燕国，人在定国王府，开局劈砍老丈人，砸赌坊，揍纨绔，抢小娘子</div>
+               <h3>糟糠妻竟是长公主</h3> 
+               <div>她养了他八年，他—朝高中却要另娶?楚南希:“区区状元，还配不上本宫!”</div>
+               <h3>才通关游戏就把我拉进去？</h3> 
+               <div>练习时长两年半，江哲刚通关了一款名为《规则怪谈》的游戏，却被拉了进去。</div>
+        </div>
+        <div id="zhutiright">
+            <ul>
+                <div id="d2">
+                    <li><a href="#">【征稿】历史风云变幻，尽在…</a></li>
+                    <li><a href="#">【新书】风御九秋古典仙侠《…</a></li>
+                    <li><a href="#">【新书】萌汉子重生萌宝新作…</a></li>
+                    <li><a href="#">【招募】中文在线主播联合录…</a></li>
+                    <li><a href="#">【征稿】2024中文在线IP征稿…</a></li>
+                    <li><a href="#">【征文】传承中轴文脉，传播…</a></li>
+                    <li><a href="#">【新书】超人气作家伪戒《星…</a></li>
+                    <li><a href="#">【喜报】《王妃出山要翻天》…</a></li>
+                    <img src="./作家福利.png">
+            </ul>
+        </div>
+ 
+</body>
+</html>
